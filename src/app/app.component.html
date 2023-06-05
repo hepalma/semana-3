@@ -6,9 +6,12 @@
       </ion-toolbar>
       <ion-list lines="none">
         <ion-item>
+          <ion-icon name="home-outline"></ion-icon>
           <ion-label [routerLink]="['/home']">Inicio</ion-label>
+          
         </ion-item>
         <ion-item>
+          <ion-icon name="rocket-outline"></ion-icon>
           <ion-label [routerLink]="['/aventura']">Aventura</ion-label>
         </ion-item>        
       </ion-list>
@@ -17,7 +20,9 @@
     <ion-footer>
       <ion-list lines="nones">
         <ion-item>
+          <ion-icon name="exit-outline" slot="end"></ion-icon>
           <ion-label [routerLink]="['/login']">Salir</ion-label>
+          
         </ion-item>
       </ion-list>
     </ion-footer>
